@@ -9,7 +9,7 @@ import Movie from './views/Movie'
 
 
 const BaseRoute = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/webname/">
     <Switch>
       <Route exact path="/" component={Home} />
       <Route path="/movie" component={Movie} />

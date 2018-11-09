@@ -5,7 +5,7 @@ class Movie extends Component {
     return (
       <div className="Movie">
         <p>bbbb</p>
-        <a href='/'>home</a>
+        <a href='/webname/'>home</a>
       </div>
     )
   }
